@@ -1,0 +1,37 @@
+---
+import Header from '../components/Header.astro';
+import Project from "../components/Project.astro";
+import Sidebar from "../components/Sidebar.astro";
+---
+
+<!DOCTYPE html>
+<html
+>
+  <Header title="Certificates | Timo Winkler" />
+  <body>
+    <div class="content">
+        <Sidebar selectedItem="certificates" />
+      <nav class="main">
+        <div class="container">
+          <div class="back-nav-container">
+            <a href="/" class="back-nav-button w-inline-block"
+              ><img src="/assets/back.svg" loading="lazy" alt="" class="back-nav-img" />
+              <div>Back</div></a
+            >
+          </div>
+          <div class="content-container">
+            <h1>Certificates</h1>
+            <section class="items-container">
+                <div class="resouce-items">
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5f75ee63-d875-4f58-8a5f-49bf8b7f8641" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d1f48e1c-0fdc-46fa-9a8e-d9053f9c181b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                </div>
+            </section>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  </body>
+</html>

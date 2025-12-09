@@ -87,6 +87,20 @@ const { selectedItem } = Astro.props;
         />
         <div>Personal projects</div>
       </a>
+      <a
+        href="/certificates"
+        class={`nav-link-container w-inline-block ${
+          selectedItem === 'certificates' ? 'w--current' : ''
+        }`}
+      >
+        <img
+          src="/assets/certificate.svg"
+          loading="eager"
+          alt=""
+          class="nav-link-image"
+        />
+        <div>Certificates</div>
+      </a>
     </nav>
 
     <div
