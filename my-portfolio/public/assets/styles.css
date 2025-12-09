@@ -67,6 +67,11 @@ img {
   display: inline-block;
 }
 
+.wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
 .w-inline-block {
   max-width: 100%;
   display: inline-block;
